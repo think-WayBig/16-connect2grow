@@ -1,0 +1,180 @@
+:root {
+    --primary: #FFD700
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(24, 24, 24);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+body>section {
+    width: 800px;
+}
+
+@media (max-width: 520px) {
+    body>section {
+        width: 100%;
+    }
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0);
+    overflow-x: hidden;
+    background-image: url("../images/background-connect2grow.png");
+    padding-bottom: 30px;
+}
+
+main nav {
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--primary);
+    box-shadow: 0 8px 30px #ffd90061;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    background-color: black;
+    margin-bottom: 50px;
+}
+
+main nav h1 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+main nav div {
+    font-weight: 700;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+main section.menu {
+    display: none;
+    width: 800px;
+    height: 100%;
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(12px);
+    padding: 20px 0px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 800px) {
+    main section.menu {
+        width: 100%;
+    }
+}
+
+main section.menu div {
+    color: white;
+    font-weight: 700;
+    padding: 0 10px;
+    padding-bottom: 10px;
+    float: right;
+    cursor: pointer;
+}
+
+main section.menu ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    list-style-type: none;
+    color: white;
+    width: 100%;
+}
+
+main section.menu ul a {
+    width: 100%;
+}
+
+main section.menu ul li {
+    width: 100%;
+    padding: 20px 0;
+    transition: 0.3s;
+}
+
+main section.menu ul li:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+main section.container {
+    width: 90%;
+    max-height: 490px;
+    overflow-y: scroll;
+    box-shadow: 0px 0px 20px rgba(255, 203, 21, 0.5);
+    border-radius: 16px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    margin: 50px auto;
+    color: var(--primary);
+    text-align: center;
+}
+
+main section.container span {
+    color: white;
+    font-size: 20px;
+}
+
+main section.container h1 {
+    font-size: 20px;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    padding: 20px;
+}
+
+main section.container table {
+    width: 100%;
+    color: white;
+}
+
+main section.container table tr {
+    width: 100%;
+}
+
+main section.container table tr td,
+main section.container table tr th {
+    padding: 5px;
+}
+
+main section.container table tr:nth-child(even) {
+    background-color: #292929;
+}
+
+.hidden {
+    display: none;
+}
+
+@media (max-width: 370px) {
+    main section.container {
+        zoom: 0.85;
+        width: 92%;
+    }
+}

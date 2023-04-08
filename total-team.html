@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Total Team | Connect2Grow</title>
+
+    <!--======== Meta Tags ========-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--======= Google Fonts =========-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!--======= Custom Stylesheet =======-->
+    <link rel="stylesheet" href="./assets/css/total-team.css">
+</head>
+
+<body>
+    <section>
+        <main>
+            <nav>
+                <h1><a href=".index.html">Connect2Grow</a></h1>
+                <div onclick="openMenu()">☰</div>
+            </nav>
+            <section class="menu">
+                <div onclick="closeMenu()">
+                    &#x2715;
+                </div>
+                <ul>
+                    <a href="#">
+                        <li>HOME</li>
+                    </a>
+                    <a href="#">
+                        <li>About</li>
+                    </a>
+                    <a href="#">
+                        <li>Contact</li>
+                    </a>
+                    <a href="#">
+                        <li>Login</li>
+                    </a>
+                </ul>
+            </section>
+
+            <section class="container">
+                <h1 style="font-weight: 500;" class="expanded">
+                    Level 1 &nbsp;&nbsp;
+                    <span>0</span>
+                    <span>members</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i style="zoom: 0.6;font-weight: 300;cursor: pointer;" id="expand-toggle" onclick="toggleExpand(1)">🡅 Expand</i>
+                </h1>
+                <table class="hidden" id="level1">
+                    <tr>
+                        <th>Sr.</th>
+                        <th>Name</th>
+                        <th>UserID</th>
+                        <th>Status</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Harman</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Kamal</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Gurjot</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Harman</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section class="container">
+                <h1 style="font-weight: 500;" class="expanded">
+                    Level 2 &nbsp;&nbsp;
+                    <span>0</span>
+                    <span>members</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i style="zoom: 0.6;font-weight: 300;cursor: pointer;" id="expand-toggle" onclick="toggleExpand(2)">🡅 Expand</i>
+                </h1>
+                <table class="hidden" id="level2">
+                    <tr>
+                        <th>Sr.</th>
+                        <th>Name</th>
+                        <th>UserID</th>
+                        <th>Status</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Harman</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Kamal</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Gurjot</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Harman</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section class="container">
+                <h1 style="font-weight: 500;" class="expanded">
+                    Level 3 &nbsp;&nbsp;
+                    <span>0</span>
+                    <span>members</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i style="zoom: 0.6;font-weight: 300;cursor: pointer;" id="expand-toggle" onclick="toggleExpand(3)">🡅 Expand</i>
+                </h1>
+                <table class="hidden" id="level3">
+                    <tr>
+                        <th>Sr.</th>
+                        <th>Name</th>
+                        <th>UserID</th>
+                        <th>Status</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Harman</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Kamal</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Gurjot</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Harman</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section class="container">
+                <h1 style="font-weight: 500;" class="expanded">
+                    Level 4 &nbsp;&nbsp;
+                    <span>0</span>
+                    <span>members</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i style="zoom: 0.6;font-weight: 300;cursor: pointer;" id="expand-toggle" onclick="toggleExpand(4)">🡅 Expand</i>
+                </h1>
+                <table class="hidden" id="level4">
+                    <tr>
+                        <th>Sr.</th>
+                        <th>Name</th>
+                        <th>UserID</th>
+                        <th>Status</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Harman</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Kamal</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Gurjot</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Harman</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section class="container">
+                <h1 style="font-weight: 500;" class="expanded">
+                    Level 5 &nbsp;&nbsp;
+                    <span>0</span>
+                    <span>members</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i style="zoom: 0.6;font-weight: 300;cursor: pointer;" id="expand-toggle" onclick="toggleExpand(5)">🡅 Expand</i>
+                </h1>
+                <table class="hidden" id="level5">
+                    <tr>
+                        <th>Sr.</th>
+                        <th>Name</th>
+                        <th>UserID</th>
+                        <th>Status</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Harman</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Kamal</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Gurjot</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Harman</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section class="container">
+                <h1 style="font-weight: 500;" class="expanded">
+                    Level 6 &nbsp;&nbsp;
+                    <span>0</span>
+                    <span>members</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i style="zoom: 0.6;font-weight: 300;cursor: pointer;" id="expand-toggle" onclick="toggleExpand(6)">🡅 Expand</i>
+                </h1>
+                <table class="hidden" id="level6">
+                    <tr>
+                        <th>Sr.</th>
+                        <th>Name</th>
+                        <th>UserID</th>
+                        <th>Status</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Harman</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Kamal</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Gurjot</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Harman</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section class="container">
+                <h1 style="font-weight: 500;" class="expanded">
+                    Level 7 &nbsp;&nbsp;
+                    <span>0</span>
+                    <span>members</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i style="zoom: 0.6;font-weight: 300;cursor: pointer;" id="expand-toggle" onclick="toggleExpand(7)">🡅 Expand</i>
+                </h1>
+                <table class="hidden" id="level7">
+                    <tr>
+                        <th>Sr.</th>
+                        <th>Name</th>
+                        <th>UserID</th>
+                        <th>Status</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Harman</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Kamal</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Gurjot</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Harman</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ronak</td>
+                        <td>CG24365</td>
+                        <td>ACTIVE</td>
+                    </tr>
+                </table>
+            </section>
+        </main>
+    </section>
+
+    <!--======= Custom JS =======-->
+    <script src="./assets/scripts/nav.js"></script>
+    <script src="./assets/scripts/total-team.js"></script>
+</body>
+
+</html>
